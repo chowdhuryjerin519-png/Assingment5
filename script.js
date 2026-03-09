@@ -128,7 +128,7 @@ async function openModal(id) {
     document.getElementById("modalTitle").innerText =
       issue.data.title || "No Title";
     document.getElementById("modalDesc").innerText =
-      issue.data.description || "No description provided.";
+      issue.data.description || "No Description provided.";
     document.getElementById("modalAuthor").innerText =
       issue.data.author || "Unknown";
 
